@@ -1,6 +1,6 @@
 {
   "name": "i-have-adhd",
-  "version": "0.3.0-codex.1",
+  "version": "0.3.0-codex.1+codex.20260928025742",
   "description": "Codex-only ADHD-friendly response rules with a SessionStart hook.",
   "author": {
     "name": "pinhua33"
@@ -8,16 +8,24 @@
   "homepage": "https://github.com/pinhua33/i-have-adhd",
   "repository": "https://github.com/pinhua33/i-have-adhd",
   "license": "MIT",
-  "keywords": ["codex", "adhd", "output-style"],
+  "keywords": [
+    "codex",
+    "adhd",
+    "output-style"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "I Have ADHD (Codex)",
     "shortDescription": "Action-first responses in Codex",
-    "longDescription": "Load the full ADHD-friendly response rules at session start, or invoke the skill explicitly for a task.",
+    "longDescription": "Set a concise ADHD-friendly style at session start; load detailed rules only when the skill is invoked.",
     "developerName": "pinhua33",
     "category": "Productivity",
-    "capabilities": ["Instructions"],
+    "capabilities": [
+      "Instructions"
+    ],
     "websiteURL": "https://github.com/pinhua33/i-have-adhd",
-    "defaultPrompt": ["Use $i-have-adhd for this task."]
+    "defaultPrompt": [
+      "Use $i-have-adhd for this task."
+    ]
   }
 }

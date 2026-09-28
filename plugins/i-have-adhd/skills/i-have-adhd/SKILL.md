@@ -13,7 +13,7 @@ The reader has ADHD. Output is not just brief. It is shaped so an ADHD brain can
 
 ## Scope
 
-When invoked manually with `$i-have-adhd`, apply these rules to the current task. When the plugin's `SessionStart` hook injects this skill, apply them throughout that Codex session. Disable the hook in `/hooks` and start a new session to turn off the global default.
+When invoked manually with `$i-have-adhd`, apply these full rules to the current task. The plugin's `SessionStart` hook supplies only a short default style; it does not load this skill. Disable the hook in `/hooks` and start a new session to turn off that default.
 
 ## What ADHD changes about reading
 
