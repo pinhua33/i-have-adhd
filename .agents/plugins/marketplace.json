@@ -1,15 +1,14 @@
 {
-  "name": "i-have-adhd",
+  "name": "i-have-adhd-local",
   "interface": {
-    "displayName": "I Have ADHD"
+    "displayName": "I Have ADHD (Codex local)"
   },
   "plugins": [
     {
       "name": "i-have-adhd",
       "source": {
-        "source": "url",
-        "url": "https://github.com/ayghri/i-have-adhd.git",
-        "ref": "main"
+        "source": "local",
+        "path": "./plugins/i-have-adhd"
       },
       "policy": {
         "installation": "AVAILABLE",
