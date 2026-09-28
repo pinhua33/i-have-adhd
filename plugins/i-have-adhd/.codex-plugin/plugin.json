@@ -1,7 +1,7 @@
 {
   "name": "i-have-adhd",
-  "version": "0.3.0-codex.1+codex.20260928025742",
-  "description": "Codex-only ADHD-friendly response rules with a SessionStart hook.",
+  "version": "0.3.0-codex.1+codex.20260928032340",
+  "description": "Codex-only ADHD-friendly skill with a global startup switch.",
   "author": {
     "name": "pinhua33"
   },
@@ -17,7 +17,7 @@
   "interface": {
     "displayName": "I Have ADHD (Codex)",
     "shortDescription": "Action-first responses in Codex",
-    "longDescription": "Set a concise ADHD-friendly style at session start; load detailed rules only when the skill is invoked.",
+    "longDescription": "A global switch requests the ADHD-friendly skill at session start; Codex loads its rules through the skill workflow.",
     "developerName": "pinhua33",
     "category": "Productivity",
     "capabilities": [
